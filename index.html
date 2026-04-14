@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome folks</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #320945;
+            color: #e2f0e2;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #aa94b8;
+            font-size: 18px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            border-bottom: 1px solid #2a1e3b;
+            padding-bottom: 5px;
+        }
+
+        p {
+            color: #cbf5d9;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #631e9b;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .contacts a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #a238f8;
+            text-decoration: none;
+        }
+
+        .contacts a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 14px;
+            color: #aa94b8;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .mp3 {
+            border: 1px solid #65648b
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Bitsel</h1>
+        <div class="subtitle">эщкере</div>
+    </header>
+
+    <section>
+        <h2>who am i</h2>
+        <p title="meow">Hello, world!</p>
+        <p>
+           i'm just a siily and anxious goofy goober who is trying web development
+        </p>
+	<audio class="mp3" src="link.mp3" controls></audio>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Linux</div>
+            <div class="skill">Околополит</div>
+	        <div class="skill">Нести хуйню в интернете</div>
+            <div class="skill">Нытьё</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Контакты</h2>
+        <div class="contacts">
+            <a href="https://openvk.org/id12835">OpenVK</a>
+            <a href="mailto:yagovnoedtupoi@proton.me">Email</a>
+        </div>
+    </section>
+
+    <footer>
+        meow
+    </footer>
+
+</div>
+
+</body>
+</html>
